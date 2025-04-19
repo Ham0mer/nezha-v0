@@ -48,6 +48,7 @@ if ([string]::IsNullOrWhiteSpace($agenttag)) {
         }
     }
 }
+$agenttag = "v0.20.5"
 #Region判断
 $ipapi = ""
 $region = "Unknown"
